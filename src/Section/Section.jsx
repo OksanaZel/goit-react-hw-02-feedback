@@ -5,7 +5,9 @@ import { SectionContainer, SectionTitle } from "./Section.styles";
 function Section({title, children}) {
     return (
         <SectionContainer>
-            <SectionTitle>{title}</SectionTitle>{children}</SectionContainer>
+            <SectionTitle>{title}</SectionTitle>
+            {children}
+        </SectionContainer>
     );
 }
 

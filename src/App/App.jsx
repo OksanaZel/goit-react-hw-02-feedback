@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <Container>
        <Section title={"Please leave feedback"}>
-          <FeedbackOptions options={options} onLeaveFeedback={this.onLeaveFeedback}></FeedbackOptions>
+          <FeedbackOptions options={options} onLeaveFeedback={this.onLeaveFeedback} />
        </Section>
         <Section title={"Statistics"}>
           {total !== 0 ? <Statistics options={options} values={values} total={total} positive={positive} /> : <Notification>{"No feedback given"}</Notification>}
