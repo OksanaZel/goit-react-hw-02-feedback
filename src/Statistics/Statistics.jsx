@@ -6,7 +6,8 @@ function Statistics({options, values, total, positive}) {
     return (
         <StatisticsList>
             {options.map((option) => (
-                <StatisticsListItem key={option}>{option}: {values[option]}</StatisticsListItem>
+                <StatisticsListItem key={option}>
+                    {option}: {values[option]}</StatisticsListItem>
             ))}
             <StatisticsListItem key={"total"}>{"Total"}: {total}</StatisticsListItem>
             <StatisticsListItem key={"positive"}>{"Positive feedback"}: {positive}%</StatisticsListItem>

@@ -8,20 +8,19 @@ margin-bottom: 25px;
 `;
 
 export const Button = styled.button`
-cursor: pointer;
-
-font-size: 20px;
-font-weight: bold;
-text-transform: capitalize;
-
-border: none;
-border-radius: 4px;
-background-color: lightblue;
-box-shadow: 0px 1px 4px rgba(55, 19, 187, 0.25);
-
-width: 150px;
-padding-top: 5px;
-padding-bottom: 5px;
+  min-width: 150px;
+  padding: 2px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  text-transform: capitalize;
+  background-color: #2196f3;
 
 &:not(:last-child){
 margin-right: 15px;
